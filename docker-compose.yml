@@ -4,4 +4,4 @@ services:
     ports:
       - "9090:80" 
     volumes:
-      - ./website:/usr/share/nginx/html
+      - .:/usr/share/nginx/html
